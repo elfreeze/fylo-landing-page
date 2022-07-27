@@ -5,28 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ 
 </head>
 <body>
+ <header role="banner">
+  <a class="logo" href="#"><img src="/images/logo.svg" alt="logo"></a>
+  <nav class="top-nav">
+    <ul>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Sign In</a></li>
+    </ul>
+  </nav>
+ </header> 
 
-  Features
-  Team
-  Sign In
+  <main>
+    <section role="" class="intro-section">
+      <div class="img-container" role="img"></div>
+      <h1>All your files in one secure location, accessible anywhere.
+      </h1>
+      <p>
+        Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.
+      </p>
 
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
-
-  Get Started
+      <form action="">
+        <input type="email" name="email" id="email" placeholder="Enter your email.">
+        <button>Get Started</button>
+      </form>
+  </section>
 
   Stay productive, wherever you are
 
@@ -62,6 +72,8 @@
   Contact Us
   Terms
   Privacy
+
+</main>
 
   <footer>
     <p class="attribution">
