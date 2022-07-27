@@ -20,6 +20,11 @@ body {
     align-items: center;
     justify-content: center;
     max-width: 375px;
+
+
+/*---------------------
+Header Section Styling
+----------------------*/
 }
 header {
     width: 100%;
@@ -53,12 +58,17 @@ header {
     color: hsl(238, 22%, 44%);
     margin-inline-end: 30px;
 }
+
+/*---------------------
+Welcome Section Styling
+----------------------*/
 .intro-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    padding: 10px 22px;
+    text-align: center;
 }
 .img-container {
     background: url(/images/illustration-1.svg);
@@ -68,7 +78,21 @@ header {
     width: 80%;
     height: 300px;
 }
+.intro-text {
+    margin: 30px auto;
+}
+.intro-text > h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%);
+    font-size: 25px;
+    font-weight: 900;
+}
+.intro-text > p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
 
+}
 
 .attribution { 
     font-size: 11px; 
