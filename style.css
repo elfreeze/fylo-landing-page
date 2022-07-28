@@ -19,19 +19,17 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 375px;
-
-
+    font-family: 'Open Sans', sans-serif;
+}
 /*---------------------
 Header Section Styling
 ----------------------*/
-}
 header {
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 30px 20px;
 }
 .logo {
     width: 50%;
@@ -42,6 +40,8 @@ header {
     width: 100px;
 }
 .top-nav {
+    width: 100%;
+    padding-inline-start: 50px;
 }
 .top-nav > ul {
     display: flex;
@@ -49,14 +49,14 @@ header {
     justify-content: center;
     height: 100%;
     width: 100%;
-    padding-inline-start: 10px;
 }
 .top-nav > ul > li > a {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     color: hsl(238, 22%, 44%);
-    margin-inline-end: 30px;
+    margin-inline-end: 20px;
+    width: 100%;
 }
 
 /*---------------------
@@ -91,9 +91,32 @@ Welcome Section Styling
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     margin-top: 20px;
-
 }
-
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+form > input[type=email] { 
+    margin-block-end: 20px;
+    padding: 10px 20px ;
+    border: 1px solid #000;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+    color: hsl(0, 0%, 75%);
+}
+form > button {
+    width: 300px;
+    height: 40px;
+    background: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
