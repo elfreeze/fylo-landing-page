@@ -264,6 +264,7 @@ footer a {
         display: flex;
         justify-content: space-between;
         padding: 30px 20px;
+        margin-bottom: 100px;
     }
     .logo {
         background: blue;
@@ -296,18 +297,23 @@ footer a {
     Welcome Section Styling
     ----------------------*/
     .intro-section {
-        padding: 10px 22px;
+        display: unset;
+        padding: 10px 50px;
+        margin: 0 auto;
+        background: red;
     }
     .img-container {
         background: url(/images/illustration-1.svg);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        float: right;
+        max-width: 40vw;
+        float: inline-end;
     }
     .intro-text {
         margin: 30px auto;
-        float: left;
+        width: 50%;
+        float: inline-start;
     }
     .intro-text > h1 {
         font-family: 'Open Sans', sans-serif;
