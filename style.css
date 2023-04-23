@@ -72,11 +72,7 @@ Welcome Section Styling
     text-align: center;
     max-width: 1440px;
 }
-.img-container {
-    background: url(/images/illustration-1.svg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.b-img1 {
     width: 100%;
     height: 15rem;
 }
@@ -126,50 +122,53 @@ form > button {
 /*-----------------------------
 more-section
 ------------------------------*/
+
 .more-section {
-    margin: 100px auto;
     display: flex;
-    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(/images/bg-curve-mobile.svg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.img-container-2 {
-    background: url(/images/illustration-2.svg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
+    background-color: hsl(240deg 75% 98% / 69%);
+}
+.curve-container {
+    background-image: url(/images/bg-curve-mobile.svg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-block-start: 2rem;
+    height: 50px;
+}
+.b-img2 {
+    margin-block: 2rem;
+    width: 80%;
+    height: 15rem;
 }
 .more-section h2 {
     font-family: 'Raleway', sans-serif;
     color: hsl(243, 87%, 12%);
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 1rem;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 4rem;
 }
 .more-section > p {
     font-size: 14px;
-    color: hsl(240, 2%, 34%);
-    padding: 20px 25px;
-    margin: 10px auto;
-}
-.more-section br {
-    margin-bottom: 20px;
+    padding-block-start: 1.3rem;
+    padding-inline: 1.5rem;
+    color: hsl(238, 22%, 44%);
 }
 .more-section > a {
+    display: flex;
+    align-items: center;
     font-size: 14px;
     text-decoration: none;
     color: hsl(170, 45%, 43%);
     border-bottom: 1px solid hsl(170, 45%, 43%);
     line-height: 2;
-    margin-bottom: 40px;
+    margin: 2rem auto 3rem;
+}
+.more-section > a > img {
+    margin-inline-start: 0.5rem;
 }
 .testimonial {
     width: 280px;
