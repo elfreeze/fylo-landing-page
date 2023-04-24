@@ -3,7 +3,7 @@
 
 
 .none {
-    color: hsl(243, 87%, 12%)hsl(238, 22%, 44%), hsl(224, 93%, 58%),hsl(170, 45%, 43%) hsl(240, 75%, 98%), hsl(0, 0%, 75%);
+    color: hsl(243, 87%, 12%) hsl(238, 22%, 44%), hsl(224, 93%, 58%),hsl(170, 45%, 43%) hsl(240, 75%, 98%), hsl(0, 0%, 75%);
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
@@ -49,7 +49,6 @@ header {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 60%;
 }
 .nav-link {
     text-decoration: none;
@@ -98,7 +97,7 @@ form {
     flex-direction: column;
     width: 300px;
 }
-form > input[type=email] {
+.form-1 > input[type=email] {
     margin-block-end: 1rem;
     padding: 0.7rem 1.5rem;
     border: 1px solid hsl(238, 22%, 44%);
@@ -130,6 +129,7 @@ more-section
     align-items: center;
     width: 100%;
     background-color: hsl(240deg 75% 98% / 69%);
+    padding-block-end: 5rem;
 }
 .curve-container {
     background-image: url(/images/bg-curve-mobile.svg);
@@ -165,45 +165,54 @@ more-section
     color: hsl(170, 45%, 43%);
     border-bottom: 1px solid hsl(170, 45%, 43%);
     line-height: 2;
-    margin: 2rem auto 3rem;
+    margin: 2rem auto 2.5rem;
 }
 .more-section > a > img {
     margin-inline-start: 0.5rem;
 }
 .testimonial {
-    width: 280px;
-    height: 180px;
+    width: 18rem;
+    height: 11rem;
     background: #fff;
-    padding: 20px 15px 20px 20px;
+    padding: 1.3rem 1.8rem;
     border-radius: 5px;
     box-shadow: 1px 1px 32px -6px hsl(0, 0%, 75%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+}
+.quote-icon {
+    height: 0.6rem;
+    margin-block-end: 0.5rem;
 }
 .testimonial > p {
-    font-size: 11px;
+    font-size: 0.65rem;
+    line-height: 1.7;
     color: hsl(243, 87%, 12%);
-    margin-block-end: 20px;
+    margin-block-end: 0.8rem;
 }
 .testimonial-info {
     display: flex;
     align-items: center;
+    height: 1.5rem;
 }
 .testimonial-info > img {
-    width: 30px;
-    height: 30px;
+    width: auto;
+    height: 100%;
     border-radius: 50%;
-    margin-inline-end: 10px;
+    margin-inline-end: 0.5rem;
 }
 .name-container > h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: 13px;
+    font-size: 0.7rem;
 }
 .name-container > p {
-    font-size: 10px;
+    font-size: 0.45rem;
+    color: hsl(243, 87%, 12%);
 }
 .action-section {
-    background: hsl(240, 26%, 60%);
-    padding: 50px 40px;
-    height: 350px;
+    background: hsl(238, 22%, 44%);
+    padding-block: 3.2rem 4.5rem;
+    padding-inline: 2.5rem;
     color: #fff;
     text-align: center;
     display: flex;
@@ -211,45 +220,72 @@ more-section
     align-items: center;
 }
 .action-section > h4 {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-family: 'Raleway', sans-serif;
-    margin-block-end: 20px;
+    margin-block-end: 1rem;
 }
 .action-section > p {
-    font-size: 15px;
-    margin-bottom: 20px;
+    font-size: 0.9rem;
+    margin-block-end: 2rem;
 }
 .form-2 {
     width: 250px;
 }
 .form-2 > input[type=email] {
-    font-size: 12px;
-    margin-block-end: 10px;
+    font-size: 0.8rem;
     border: none;
+    margin-block-end: 0.6rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 3px;
+    box-shadow: 2px 2px rgba(0,0,0,0.1);
 }
 .form-2 > button {
     width: 250px;
     font-size: 12px;
     height: 30px;
+    box-shadow: 2px 2px rgba(0,0,0,0.1);
 }
 footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 400px;
     background: hsl(243, 87%, 12%);
     color: #fff;
-    padding-inline-start: 30px;
+    padding-block-start: 4rem;
+    padding-inline-start: 2.5rem;
 }
 .logo-container > img {
+    height: 3.2rem;
     filter: invert(1) brightness(100);
 }
 footer a {
     text-decoration: none;
     color: #fff;
+    padding-block-end: 2rem;
 }
-
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-block-end: 2rem;
+}
+.footer-info p {
+    padding-block-end: 1.2rem;
+}
+.footer-info p img {
+    margin-inline-end: 1rem;
+}
+.bottom-nav {
+    display: flex;
+    flex-direction: column;
+}
+.bottom-nav > ul {
+    padding-block-end: 2rem;
+}
+.bottom-nav > ul > li {
+    padding-block-end: 1rem;
+}
 
 .attribution { 
     font-size: 11px; 
