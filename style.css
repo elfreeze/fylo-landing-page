@@ -58,7 +58,9 @@ header {
     margin-inline-end: 20px;
     width: 100%;
 }
-
+@media only screen and (min-width: 768px) {
+    
+}
 /*---------------------
 Welcome Section Styling
 ----------------------*/
