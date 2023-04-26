@@ -240,47 +240,6 @@ more-section
 .more-text-container > a > img {
     margin-inline-start: 0.5rem;
 }
-@media only screen and (min-width: 768px) {
-    .curve-container {
-        background-image: url(/images/bg-curve-desktop.svg);
-        height: 75px;
-    }
-    .more-section {
-        flex-direction: row-reverse;
-        padding: 5rem;
-    }
-    .b-img2 {
-        width: 45%;
-        height: 25rem;
-        margin: 0;
-    }
-    .more-text-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 60%;
-        margin-inline-end: 3rem;
-        text-align: start;
-    }
-    .more-text-container > h2 {
-        font-size: 2.5rem;
-        line-height: 2;
-        margin: 0;
-        text-align: start;
-        place-self: start;
-    }
-    .more-text-container > p {
-        font-size: 1.25rem;
-        padding-inline: 0;
-        padding-block-start: 1.25rem;
-    }
-    .more-text-container > a {
-        margin: 1rem 0;
-        font-size: 1.25rem;
-        place-self: baseline;
-    }
-}
-
 .testimonial {
     width: 18rem;
     height: 11rem;
@@ -320,6 +279,73 @@ more-section
     font-size: 0.45rem;
     color: hsl(243, 87%, 12%);
 }
+
+@media only screen and (min-width: 768px) {
+    .curve-container {
+        background-image: url(/images/bg-curve-desktop.svg);
+        height: 75px;
+    }
+    .more-section {
+        flex-direction: row-reverse;
+        padding: 5rem;
+    }
+    .b-img2 {
+        width: 45%;
+        height: 25rem;
+        margin: 0;
+    }
+    .more-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        margin-inline-end: 3rem;
+        text-align: start;
+    }
+    .more-text-container > h2 {
+        font-size: 2.5rem;
+        line-height: 2;
+        margin: 0;
+        text-align: start;
+        place-self: start;
+    }
+    .more-text-container > p {
+        font-size: 1.25rem;
+        padding-inline: 0;
+        padding-block-start: 1.25rem;
+    }
+    .more-text-container > a {
+        margin: 1rem 0 3rem;
+        font-size: 1.25rem;
+        place-self: baseline;
+    }
+    .testimonial {
+        width: 22rem;
+        height: 13rem;
+        place-self: start;
+    }
+    .quote-icon {
+        height: 0.8rem;
+    }
+    .testimonial > p {
+        font-size: 0.8rem;
+    }
+    .testimonial-info {
+        height: 2rem;
+    }
+    .name-container > h3 {
+        font-size: 1rem;
+    }
+    .name-container > p {
+        font-size: 0.6rem;
+    }
+}
+
+
+
+/*------------------------
+action section
+------------------------*/
 .action-section {
     display: flex;
     flex-direction: column;
@@ -331,12 +357,12 @@ more-section
     color: #fff;
     width: 100%;
 }
-.action-section > h4 {
+.action-text-container > h4 {
     font-size: 1.2rem;
     font-family: 'Raleway', sans-serif;
     margin-block-end: 1rem;
 }
-.action-section > p {
+.action-text-container > p {
     font-size: 0.9rem;
     margin-block-end: 2rem;
 }
@@ -357,6 +383,45 @@ more-section
     height: 30px;
     box-shadow: 2px 2px rgba(0,0,0,0.1);
 }
+@media only screen and (min-width: 768px) {
+    .action-section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5rem 6rem;
+    }
+    .action-text-container {
+        height: 100%;
+        width: 45%;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .action-text-container > h4 {
+        font-size: 2rem;
+        padding-block-end: 2rem;
+        margin: 0;
+    }
+    .action-text-container > p {
+        font-size: 1.1rem;
+    }
+    form.form-2 {
+        width: 40%;
+    }
+    .form-2 > input[type=email] {
+        height: 3rem;
+        margin-block-end: 1rem;
+    }
+    .form-2 > button {
+        height: 2.5rem;
+        width: 15rem;
+        font-size: 1rem;
+    }
+}
+
+
+
 footer {
     display: flex;
     flex-direction: column;
@@ -367,7 +432,7 @@ footer {
     padding-block-start: 4rem;
     padding-inline-start: 2.5rem;
 }
-.logo-container > img {
+.footer-logo-container > img {
     height: 3.2rem;
     filter: invert(1) brightness(100);
 }
