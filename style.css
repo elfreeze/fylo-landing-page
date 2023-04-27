@@ -25,9 +25,6 @@ main {
     max-width: 1440px;
     margin: 0 auto;
 }
-.hidden {
-    visibility: hidden;
-}
 /*---------------------
 Header Section Styling
 ----------------------*/
