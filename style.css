@@ -470,7 +470,7 @@ footer a {
     width: 100%;
     margin-block-end: 3rem;
 }
-.fab {
+#fab1 , #fab2, #fab3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -509,7 +509,7 @@ footer a {
     .social-icons {
         width: 40%;
     }
-    .fab {
+    #fab1, #fab2, #fab3 {
     height: 2rem;
     width: 2rem;
     }
