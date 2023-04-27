@@ -34,7 +34,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-#top-nav {
+.top-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@ header {
     header {
     height: 100px;
     }
-    #top-nav {
+    .top-nav {
         padding: 2rem 4rem 0;
     }
     .logo-img {
@@ -452,14 +452,14 @@ footer a {
 .footer-info p img {
     margin-inline-end: 1rem;
 }
-#bottom-nav {
+.bottom-nav {
     display: flex;
     flex-direction: column;
 }
-#bottom-nav > ul {
+.bottom-nav > ul {
     padding-block-end: 2rem;
 }
-#bottom-nav > ul > li {
+.bottom-nav > ul > li {
     padding-block-end: 1rem;
 }
 .social-icons {
@@ -501,7 +501,7 @@ footer a {
         width: 37%;
         justify-content: flex-start;
     }
-    #bottom-nav {
+    .bottom-nav {
         flex-direction: row;
         width: 30%;
         justify-content: space-between;
