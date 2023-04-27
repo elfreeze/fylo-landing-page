@@ -483,6 +483,38 @@ footer a {
     font-weight: bold;
     line-height: 0;
 }
+@media only screen and (min-width: 768px) {
+    footer {
+        padding-inline: 5rem;
+    }
+    .footer-logo-container {
+        padding-block: 3rem 2rem;
+    }
+    .footer-logo-container > img {
+        height: 2.6rem;
+    }
+    .footer-items-container {
+        display: flex;
+        width: 100%;
+    }
+    .footer-info {
+        width: 37%;
+        justify-content: flex-start;
+    }
+    .bottom-nav {
+        flex-direction: row;
+        width: 30%;
+        justify-content: space-between;
+    }
+    .social-icons {
+        width: 40%;
+    }
+    #fab1, #fab2, #fab3 {
+    height: 2rem;
+    width: 2rem;
+    }
+}
+
 
 
 .attribution { 
